@@ -6,8 +6,8 @@ namespace Primeiro
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Olá mundo!");
-            Console.Write("Bom dia!");
+            Console.WriteLine("Olá mundo!"); // quebra de linha no final
+            Console.Write("Bom dia!"); // mantem cursor na mesma linha
 
 
         }

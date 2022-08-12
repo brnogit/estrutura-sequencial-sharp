@@ -41,17 +41,31 @@ namespace ProcessamentoDeDadosCsharp
             //Console.WriteLine(area);
 
             //Console.ReadLine();
+
             //----------------------------------------------
             //---------- Exemplo 4
-            int a, b;
-            double resultado;
+            //int a, b;
+            //double resultado;
 
-            a = 5;
-            b = 2;
+            //a = 5;
+            //b = 2;
 
-            resultado = (double) a / b;
+            //resultado = (double) a / b;
 
-            Console.WriteLine(resultado);
+            //Console.WriteLine(resultado);
+
+            //Console.ReadLine();
+
+            //----------------------------------------------
+            //---------- Exemplo 5
+
+            double a;
+            int b;
+
+            a = 5.0;
+            b = (int) a; // não me importo com a perda do valor -- conversão explicita de um tipo para outro
+
+            Console.WriteLine(b);
 
             Console.ReadLine();
         }

@@ -31,14 +31,27 @@ namespace ProcessamentoDeDadosCsharp
 
             //----------------------------------------------
             //---------- Exemplo 3
-            double b, B, h, area;
-            b = 6.0;
-            B = 8.0;
-            h = 5.0;
+            //double b, B, h, area;
+            //b = 6.0;
+            //B = 8.0;
+            //h = 5.0;
 
-            area = (b + B) / 2.0 * h;
+            //area = (b + B) / 2.0 * h;
 
-            Console.WriteLine(area);
+            //Console.WriteLine(area);
+
+            //Console.ReadLine();
+            //----------------------------------------------
+            //---------- Exemplo 4
+            int a, b;
+            double resultado;
+
+            a = 5;
+            b = 2;
+
+            resultado = (double) a / b;
+
+            Console.WriteLine(resultado);
 
             Console.ReadLine();
         }

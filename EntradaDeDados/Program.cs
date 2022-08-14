@@ -10,10 +10,10 @@ namespace EntradaDeDados
             string x = Console.ReadLine();
             string y = Console.ReadLine();
             string z = Console.ReadLine();
-
+            Console.WriteLine("---------");
             //string s = Console.ReadLine();
 
-            string[] v = s.Split(' ');
+            string[] v = Console.ReadLine().Split(' ');
             string a = v[0];
             string b = v[1];
             string c = v[2];
